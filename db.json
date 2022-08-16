@@ -1,0 +1,24 @@
+{
+"courses":[  
+	  { "id": 1,
+		  "title": "python from zero to hero",
+			"author": "maximlian" ,
+			"image":"https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg"
+	  } ,
+	  { "id": 2,
+		  "title": "javascript from zero to hero",
+			"author": "stephen" ,
+			"image":"https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg"
+	  },
+      { "id": 3,
+		  "title": "python from zero to hero",
+			"author": "maximlian" ,
+			"image":"https://img-c.udemycdn.com/course/240x135/394676_ce3d_5.jpg"
+	  } ,
+	  { "id": 4,
+		  "title": "javascript from zero to hero",
+			"author": "stephen" ,
+			"image":"https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg"
+	  }
+	]
+}
