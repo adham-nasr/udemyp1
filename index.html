@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">        <script src="script.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav>
-            <div class="nav_itm">
+    <div class="my_main">
+        <div id="my_nav">
+            <div class="my_nav_itm">
                 <a href="/"><img src="" alt="Udemy"></a>
             </div>
             <p>Categories</p>
             <div>
                 <form>
-                    <input type="text" placeholder="Search for anything">
-                    <button type="button">Search</button>
+                    <input id="search" type="text" placeholder="Search for anything">
+                    <button id="butt" type="button">Search</button>
                 </form>
             </div>
             <div>
@@ -30,7 +32,7 @@
             <div>
                 <button type="button"><img src=""></button>
             </div>
-        </nav>
+        </div>
         <header>
             <div class="hed1">
                 
@@ -44,49 +46,52 @@
                 </div>
             </div>
         </header>
-        <div class="A">
+        <div class="">
             <h1>A broad selection of courses</h1>
             <p>Choose from 185,000 online video courses with new additions published every month</p>
         </div>
+        <nav class="nav" id="my_css">
+            <a class="nav-link active" aria-current="page" href="#" id="python">Python</a>
+            <a class="nav-link" href="#" id="excel">Excel</a>
+            <a class="nav-link" href="#" id="webdevelopment">Web Development</a>
+            <a class="nav-link" href="#" id="javascript">JavaScript</a>
+            <a class="nav-link" href="#" id="datascience">Data Science</a>
+            <a class="nav-link" href="#" if="drawing">Drawing</a>
+        </nav>
         <div class="div1">
             <div class="div2">
                 <div class="div3">
                     <h2>Expand your career opportunities with Python</h2>
-                    <p>Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to...</p>
+                    <p>Take one of Udemys range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to...</p>
                 </div>
-                <div class="d1">
-                    <div class ="d2">
-                        <div class="d3">
-                            <div>
-                             <img src = "https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg">
-                            </div>
-                            <div>
-                             <p>Learn Python: The Complete Python Programming CourseLearn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!Rating: 4.4 out of 52928 reviews14.5 total hours146 lecturesAll LevelsCurrent price: E£269.99Original price: E£679.99</p>
-                            </div>
+                <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="cards-wrapper" id="car1">
+
                         </div>
-                        <div class="d3">
-                            <img src = "https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg">
-                            <p>Learn Python: The Complete Python Programming CourseLearn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!Rating: 4.4 out of 52928 reviews14.5 total hours146 lecturesAll LevelsCurrent price: E£269.99Original price: E£679.99</p>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="cards-wrapper" id="car2">
+
                         </div>
-                        <div class="d3">
-                            <img src = "https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg">
-                            <p>Learn Python: The Complete Python Programming CourseLearn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!Rating: 4.4 out of 52928 reviews14.5 total hours146 lecturesAll LevelsCurrent price: E£269.99Original price: E£679.99</p>
-                        </div>
-                        <div class="d3">
-                            <img src = "https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg">
-                            <p>Learn Python: The Complete Python Programming CourseLearn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!Rating: 4.4 out of 52928 reviews14.5 total hours146 lecturesAll LevelsCurrent price: E£269.99Original price: E£679.99</p>
-                        </div>
-                        <div class="d3">
-                            <img src = "https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg">
-                            <p>Learn Python: The Complete Python Programming CourseLearn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!Rating: 4.4 out of 52928 reviews14.5 total hours146 lecturesAll LevelsCurrent price: E£269.99Original price: E£679.99</p>
-                        </div>
-                        <div class="d3">
-                            <img src = "https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg">
-                            <p>Learn Python: The Complete Python Programming CourseLearn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!Rating: 4.4 out of 52928 reviews14.5 total hours146 lecturesAll LevelsCurrent price: E£269.99Original price: E£679.99</p>
-                        </div>
+                      </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
+                <!--<div id="cont" class="flexbox-container">
+                </div>
+                -->
             </div>
         </div>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
 </html>
